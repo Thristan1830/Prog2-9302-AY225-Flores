@@ -1,0 +1,78 @@
+body {
+            font-family: "Segoe UI", Arial, sans-serif;
+            background-color: black;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 650px;
+            margin: 40px auto;
+            background-color: darkgrey;
+            padding: 25px 30px;
+            border-radius: 6px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 25px;
+            font-size: 22px;
+        }
+
+        fieldset {
+            border: 1px solid maroon;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        legend {
+            padding: 0 8px;
+            font-weight: bold;
+        }
+
+        label {
+            display: block;
+            margin-top: 12px;
+            font-size: 14px;
+        }
+
+        input[type="number"] {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            font-size: 14px;
+        }
+
+        .buttons {
+            text-align: right;
+            margin-top: 15px;
+        }
+
+        button {
+            padding: 8px 16px;
+            font-size: 14px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .compute {
+            background-color: #2196f3;
+            color: white;
+        }
+
+        .clear {
+            background-color: #e0e0e0;
+            margin-right: 8px;
+        }
+
+        .results {
+            margin-top: 20px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            background-color: #fafafa;
+            white-space: pre-line;
+            font-family: Consolas, monospace;
+            font-size: 13px;
+        }
