@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Records - Thristan Eathan C. Flores 9302-XXXX</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+
+<h2>Student Record System - Thristan Eathan C. Flores 9302-XXXX</h2>
+
+<input type="file" id="uploadCSV" accept=".csv"><br><br>
+
+<div id="inputs">
+<input type="text" id="studentId" placeholder="StudentID">
+<input type="text" id="firstName" placeholder="First Name">
+<input type="text" id="lastName" placeholder="Last Name">
+<input type="text" id="lab1" placeholder="Lab1">
+<input type="text" id="lab2" placeholder="Lab2">
+<input type="text" id="lab3" placeholder="Lab3">
+<input type="text" id="prelim" placeholder="Prelim">
+<input type="text" id="attendance" placeholder="Attendance">
+<button id="addBtn">Add</button>
+<button id="deleteBtn">Delete Selected</button>
+<button id="saveBtn">Download CSV</button>
+</div>
+
+<table id="studentTable">
+<thead>
+<tr>
+<th>Select</th>
+<th>StudentID</th>
+<th>First Name</th>
+<th>Last Name</th>
+<th>Lab1</th>
+<th>Lab2</th>
+<th>Lab3</th>
+<th>Prelim</th>
+<th>Attendance</th>
+</tr>
+</thead>
+<tbody></tbody>
+</table>
+
+<script src="script.js"></script>
+    
+</body>
+</html>
